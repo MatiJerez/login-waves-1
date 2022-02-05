@@ -232,7 +232,7 @@ text-align: center;
 height: 30px;
 margin: 5px;
 width: 50%;
-
+margin-top: 50px;
 border:none;
 }
 .enter:hover {
@@ -242,15 +242,26 @@ border:none;
   transition: all .2s ease-in-out;
 }
 
+
 img{
   position: absolute;
   top: 50%;
-  left: 50%;
-  height: 80%;
+  left: 45%;
+  height: 573px;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
 
+@media (max-width : 944px){
+  img{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    height: 75%;
+    -webkit-transform: translateX(-40%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
 @media (max-width : 768px) {
   h1 {
       font-size: 24px;
